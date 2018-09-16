@@ -3,12 +3,14 @@ package com.farahnaz.tests.throttle.biz;
 import com.farahnaz.tests.throttle.Utils.Contants;
 import com.farahnaz.tests.throttle.model.ClientInfo;
 import com.farahnaz.tests.throttle.model.RequestStatus;
+import org.springframework.stereotype.Service;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.Hashtable;
 import java.util.Map;
 
+@Service
 public class ClientThrottle {
 
     Map<Integer, ClientInfo> clientInfoMap = new Hashtable<>();

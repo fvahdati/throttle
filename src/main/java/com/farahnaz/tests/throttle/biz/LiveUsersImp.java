@@ -1,9 +1,11 @@
 package com.farahnaz.tests.throttle.biz;
 
 import com.farahnaz.tests.throttle.model.UsersInfo;
+import org.springframework.stereotype.Service;
 
 import java.util.Random;
 
+@Service
 public class LiveUsersImp implements LiveUsers {
 
     private LiveUsersImp() {}

@@ -1,5 +1,8 @@
 package com.farahnaz.tests.throttle.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class RequestStatus {
 
     public Long accessCode;

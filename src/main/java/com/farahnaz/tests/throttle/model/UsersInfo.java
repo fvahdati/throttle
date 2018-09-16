@@ -1,7 +1,10 @@
 package com.farahnaz.tests.throttle.model;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Objects;
 
+@Component
 public class UsersInfo {
 
     public Integer numberOfUsers;
