@@ -1,4 +1,4 @@
-# Project Title
+# Throttle
 
 This microservice checks API requests to be in 3min time fram with cap size 5 times
 
@@ -29,9 +29,3 @@ The test can run by Spring Boot Runnter
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
